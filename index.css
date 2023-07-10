@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  margin: 0;
+}
+
+h3,
+h4 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.img-icon,
+.header,
+h3,
+h4,
+p {
+  margin-left: 15px;
+}
+
+p {
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.header-img1 {
+  width: 100px;
+}
+
+.header-img2,
+.avatar {
+  width: 50px;
+}
+
+.header-img1,
+.header-img2,
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: -2px;
+}
+
+.profile {
+  display: flex;
+  margin-left: 10px;
+}
+
+.profile-info {
+  margin-top: -5px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 375px;
+}
+
+.img-icon {
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 30px;
+}
+
+.img-icon:hover {
+  background: orange;
+}
+
+.comment {
+  font-weight: 400;
+}
